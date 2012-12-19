@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Speakless</title>
+    </head>
+    <body>
+        
+         
+        <!-- kkkkkkkkkkkkkkkkkkkkkkkk  -->
+        <!-- POST NEW ENTRY PAGE      -->
+        <!-- aaaaaaaaaaaaaaaaaaaaaaaa        -->
+        
+        
+  <div data-role="page" id="newentryview" data-theme="a">
+
+	<div data-role="header" data-position="fixed">
+        <a href="newsfeedview.html" data-direction="reverse" data-icon="back" data-theme="e" class="ui-btn-left">Back</a>
+		<h1>Speakless</h1>
+	</div><!-- /header -->
+        
+      
+   <div data-role="content">
+			
+                     
+                        
+                        
+           <!-- The story so far... --> 	
+                <div data-role="fieldcontain">
+                    <label for="textarea">Wassup...? :</label>
+	                <textarea name="textarea" id="textarea"> The story so far... </textarea>
+                </div>
+    
+                        
+           <!-- Photo and Video buttons -->
+                        
+                        
+    <div class="ui-grid-a">
+	<div class="ui-block-a"  data-theme="d"><button onclick="capturePhoto()">Photo</button>
+    
+        <p>
+            Photo Thumbnail
+        </p>
+        
+    </div>
+	
+    <div class="ui-block-b"  data-theme="d"><button onclick="captureVideo()">Video</button>
+    
+        <p>
+            Video Thumbnail
+        </p>
+        
+    </div>
+</div><!-- /grid-a -->
+                        
+                        
+   <!-- Post entry to the timeline -->
+                        <div >
+                            <input type="submit" value="Submit Button" />     
+                        </div>
+                          
+                           
+            		
+            </div>
+</div><!-- /page -->
+        
+        
+        
+    </body>
+</html>

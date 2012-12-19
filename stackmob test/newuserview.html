@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>New User</title>
+      
+        
+    </head>
+    <body>
+        
+        <!-- kkkkkkkkkkkkkkkkkkkkk  -->
+        <!--      NEW USER PAGE         -->
+        <!-- aaaaaaaaaaaaaaaaaaaaaaaa  -->
+    
+    <div data-role="page" id="newuserview" data-theme="a">
+
+    <!-- Header -->
+	    <div data-role="header" data-position="fixed">
+            <h1>Speakless</h1>
+             <a href="index.html" data-theme="e" data-icon="plus" class="ui-btn-left">:)</a>
+	    </div><!-- /header -->
+        
+         
+        <div data-role="content">
+			       
+                     
+                        <p>
+                            Please provide an email username and a password to sign up:
+                        </p>
+                        
+                        <form id="signupform" action="" method="post">
+                        
+                            <label for="newusername" class="ui-hidden-accessible">Full name</label>
+                            <input type="text" name="username" id="fullname" placeholder="Your name"/>
+                            
+                            <label for="newusername" class="ui-hidden-accessible">Email:</label>
+                            <input type="text" name="username" id="username" placeholder="Email"/>
+                            
+                            <label for="newpw" class="ui-hidden-accessible">Your password</label>
+                            <input type="password" name="username" id="password"  placeholder="Your password"/>
+                            
+                             <input type="submit" id="signupbutton" class="submit" value="Sign Up">
+                            
+                        
+                        </form> 
+        
+                          
+                           
+            		
+            </div>
+</div><!-- /page -->
+        
+        
+           <script>
+            
+             $('#signupbutton').bind('click', function() {
+    
+    var signup  = document.getElementById('#signupform');
+    var signupwithuser = signup.user.value;
+    var signupwithpw = signup.password.value;
+    var fullname = signup.fullname.value
+            
+                Kinvey.User.create({
+    username: 'signupwithuser',
+    password: 'signupwithpw',
+    name: ''fullname"
+    }, {
+    success: function(user) {
+    // user is the created user, which is now logged in.
+        $.mobile.changePage( "newsfeedview.html", { transition: "slideup"} );
+    },
+    error: function(e) {
+    // Failed to create the user.
+    // e holds information about the nature of the error.
+          alert('Failed to sign up')
+    }
+    });
+            
+});
+            
+            
+            </script>
+        
+    </body>
+</html>

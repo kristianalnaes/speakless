@@ -1,0 +1,60 @@
+
+#timelinechartentry1{
+
+                            background-color:red; 
+                            position: absolute; 
+                            left:20px; 
+                            top:60px;
+                            border-style:solid;
+                            border-color:red;
+                            border-radius: 35px;
+                            overflow:hidden;
+    
+}
+#timelinechartentry2{
+
+                            background-color:blue; 
+                            position: absolute; 
+                            left:50px; 
+                            top:60px;
+                            border-style:solid;
+                            border-color:blue;
+                            border-radius: 24px;
+    overflow:hidden;
+    
+}
+#timelinechartentry3{
+
+                            background-color:red; 
+                            position: absolute; 
+                            left:80px; 
+                            top:60px;
+                            border-style:solid;
+                            border-color:red;
+                            border-radius: 35px;
+    overflow:hidden;
+    
+}
+#timelinechartentry4{
+
+                            background-color:green; 
+                            position: absolute; 
+                            left:110px; 
+                            top:60px;
+                            border-style:solid;
+                            border-color:green;
+                            border-radius: 24px;
+    overflow:hidden;
+    
+}
+#timelinechartentry5{
+                            background-color:red; 
+                            position: absolute; 
+                            left:140px; 
+                            top:60px;
+                            border-style:solid;
+                            border-color:red;
+                            border-radius: 24px;
+    overflow:hidden;
+    
+}

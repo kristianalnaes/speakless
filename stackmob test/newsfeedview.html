@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    
+    <head>
+         <meta charset="UTF-8" />
+        <title>Speakless</title>
+
+    </head>
+    
+    <body>
+        
+       
+        <!--    kkkkkkkkkkkkkkkkkkkk      -->
+        <!--        NEWSFEED PAGE          -->
+        <!--   aaaaaaaaaaaaaaaaaaaaaaaa      -->
+        
+          <div data-role="page" id="newsfeedview" data-theme="a">
+
+              
+	<div data-role="header" data-position="fixed">
+        <a href="timelineview.html" data-theme="e" data-icon="plus" class="ui-btn-left">:)</a>
+		<h1>Speakless</h1>
+        <a href="newentryview.html" data-theme="e" data-icon="plus" class="ui-btn-right">:)</a>
+        </div>
+              
+
+	<div data-role="content">
+					
+        
+        <p>
+            Hei Kristian
+            Du har følgende oppdateringer:
+        </p>
+						
+		<ul data-role="listview"  id="newsfeedlist" data-theme="a">
+				
+        <!-- Newsfeedentries listviews from Mostache template -->
+            
+
+		</ul>
+		
+         
+        
+    </div><!-- /page -->
+</div>
+       
+        <script id="newsfeed-li-tpl" type="text/template">
+            
+        
+        <li data-icon="false"><a href="liestentryview.html">
+                    <h3>{{listentry.header}}</h3>
+                    
+                        <p><strong>{{listentry.emotion}}</strong>{{listentry.text}}</p>
+                            <p>{{listentry.color}}</p>
+                    
+                    </a>
+                    </li>
+        
+        </script>
+        
+    </body>
+</html>

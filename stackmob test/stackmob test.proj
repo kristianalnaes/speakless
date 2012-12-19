@@ -51,17 +51,36 @@
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\anneski.jpg" />
+    <Content Include="img\ohc.jpg" />
+    <Content Include="img\therese.jpg" />
     <Content Include="index.html" />
-    <Content Include="jquery-mobile\images\ajax-loader.png" />
-    <Content Include="jquery-mobile\images\ajax-loader.gif" />
-    <Content Include="jquery-mobile\images\icons-18-black.png" />
-    <Content Include="jquery-mobile\images\icons-18-white.png" />
-    <Content Include="jquery-mobile\images\icons-36-black.png" />
-    <Content Include="jquery-mobile\images\icons-36-white.png" />
-    <Content Include="jquery-mobile\jquery-1.7.2.min.js" />
-    <Content Include="jquery-mobile\jquery.mobile-1.1.0.min.css" />
-    <Content Include="jquery-mobile\jquery.mobile-1.1.0.min.js" />
-    <Content Include="js\hello-world.js" />
+    <Content Include="jquery\images\ajax-loader.png" />
+    <Content Include="jquery\images\ajax-loader.gif" />
+    <Content Include="jquery\images\background.png" />
+    <Content Include="jquery\images\icons-18-black.png" />
+    <Content Include="jquery\images\icons-18-white.png" />
+    <Content Include="jquery\images\icons-36-black.png" />
+    <Content Include="jquery\images\icons-36-white.png" />
+    <Content Include="js\init.js" />
+    <Content Include="js\newsfeed.js" />
+    <Content Include="newentryview.html" />
+    <Content Include="newsfeedview.html" />
+    <Content Include="newuserview.html" />
+    <Content Include="themes\main.css" />
+    <Content Include="timelineview.html" />
+    <Content Include="vendor\mustache.js" />
+    <Content Include="js\timeline.js" />
+    <Content Include="vendor\waypoints.js" />
+    <Content Include="img\speakless_20.png" />
+    <Content Include="img\speakless_30.png" />
+    <Content Include="img\speakless_72.png" />
+    <Content Include="themes\images\ajax-loader.gif" />
+    <Content Include="themes\images\icons-18-black.png" />
+    <Content Include="themes\images\icons-18-white.png" />
+    <Content Include="themes\images\icons-36-black.png" />
+    <Content Include="themes\images\icons-36-white.png" />
+    <Content Include="themes\speakless_theme.css" />
     <Content Include="styles\main.css" />
     <Content Include="cordova.ios.js">
       <Platform>iOS</Platform>
